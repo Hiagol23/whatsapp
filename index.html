@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <title>API WhatsApp Web</title>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <header>
+        <h2>Contatos</h2>
+      </header>
+      <ul class="contacts">
+        <!-- Contatos da API serão carregados aqui -->
+      </ul>
+    </aside>
+    <main class="chat">
+      <header class="chat-header">
+        <h2 class="chat-title">Selecione um contato</h2>
+      </header>
+      <section class="chat-messages" id="chatMessages">
+        <!-- Mensagens aparecem aqui -->
+      </section>
+      <footer class="chat-input">
+        <input type="text" id="messageInput" placeholder="Digite uma mensagem..." />
+        <button id="sendButton">Enviar</button>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
